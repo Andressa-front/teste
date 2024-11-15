@@ -1,0 +1,138 @@
+/* Seletor { 
+Regra: valor;
+Regra 2: valor;
+
+} */
+
+h1 {
+
+    color: red;
+    /* Seletores de elementos  */
+
+}
+
+p {
+
+    font-size: 30px;
+    color: aqua
+}
+
+/* Tag - seleciona todas as tags */
+/* Classes - seleciona grupos de elementos */
+/* IDs -seleciona elemento unico */
+/* classes antevem com . e id com # */
+
+.texto {
+
+    background-color: blueviolet;
+}
+
+#unico {
+
+    font-size: 50px;
+    color: chocolate
+}
+
+/* Força de Seletores */
+/* Inline > ID > Classes> Tag */
+
+h2 {
+
+    color: green
+}
+
+/*Propriedades de fontes */
+
+.fonte {
+
+    font-size: 40px;
+    font-family: arial;
+    font-weight: 700;
+    line-height: 2;
+
+}
+
+.texto-color {
+
+    color: cornflowerblue
+}
+
+.color-name {
+
+    color: crimson
+}
+
+.texto-hex1 {
+
+    color: #16d877
+}
+
+.texto-hex2 {
+
+    color: #f19233
+}
+
+.texto-hex3 {
+
+    color: #a59
+}
+
+.texto-hex4 {
+
+    color: #c69
+}
+
+.cores-rgb {
+
+    color: rgb(185, 77, 120);
+}
+
+.cores-rgba {
+
+    color: rgba(200, 55, 99, 0.2)
+}
+
+/* Cores de background */
+
+.bg {
+
+    color: #fff;
+    background-color: #fa5596
+}
+
+.bg-opacity {
+
+
+    background-color: #16deb9;
+    opacity: .2;
+}
+
+.rgba-opacity {
+
+    background-color: rgba(180, 20, 40, 0.2);
+    color: #fff;
+}
+
+.bg-image {
+
+
+    background-image: url("../CSS/Imagens/img3.jpeg");
+    padding: 20px;
+    color: #fff;
+
+}
+
+.not-centered-bg,
+.centered-bg {
+
+    height: 400px;
+    width: 400px;
+    background-image: url("../CSS/Imagens/img.jpeg");
+
+}
+
+.centered-bg {
+
+    background-position: center;
+    background-size: cover;
+}
